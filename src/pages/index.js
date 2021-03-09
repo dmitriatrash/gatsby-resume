@@ -19,7 +19,7 @@ const IndexPage = () => (
         <span>Hi! 👋 Nice to meet you. My name is Dmitri, and I am a user experience and interface designer based in Omaha, NE. I am passionate about creating inclusive designs that people fall in love with.</span>
     </div>
     <div className="btn-container">
-      <a href="https://www.dmitriatrash.com" target="_blank" rel="noreferrer"> <button className="btn__solid--green" style={{marginLeft: 0}}>
+      <a href="https://www.dmitriatrash.com" target="_blank" rel="noreferrer"> <button className="btn__solid--green" id="btn-web" style={{marginLeft: 0}}>
           website
         </button></a>
         <a href="https://www.linkedin.com/in/dmitriatrash/" target="_blank" rel="noreferrer">
@@ -72,19 +72,25 @@ const IndexPage = () => (
         <li>Wireframing</li>
         <li>Prototyping</li>
         <li>User Testing</li>
+        </ul> 
         <br />
+        <ul className="skills-list">
         <li>Figma</li>
         <li>Sketch</li>
         <li>Adobe XD</li>
         <li>Adobe Creative Cloud</li>
         <li>Abstract Version Control</li>
+        </ul>
         <br />
+        <ul className="skills-list">
         <li>HTML</li>
         <li>CSS/SCSS</li>
         <li>JavaScript</li>
         <li>React</li>
         <li>Vue.js</li>
+        </ul>
         <br />
+        <ul className="skills-list">
         <li>Leadership</li>
         <li>Communication</li>
         <li>Innovation</li>

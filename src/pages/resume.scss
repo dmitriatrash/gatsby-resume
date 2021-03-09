@@ -66,6 +66,7 @@ h4{
   grid-area: 2 / 1 / 6 / 4;
 }
 
+
 .btn__solid--green{
   background: $color-green;
   color: #ffffff;
@@ -199,7 +200,28 @@ ul{
 }
 
 @media only screen and (max-width: 900px) {
-  body {
+  h1{
+    text-align: center;
+  }
+  #btn-web{
+    margin: 20px;
+  }
+  .btn-container{
+    text-align: center;
+  }
+  .parent {
     display: block;
+  }
+  .av-container{
+    display: block;
+  }
+  .exp-container{
+    width: 100%;
+  }
+  .hr__large--grey{
+    width: 100%;
+  }
+  .description > li{
+    margin: 10px;
   }
 }
