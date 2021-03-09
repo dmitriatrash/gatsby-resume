@@ -140,7 +140,7 @@ figure {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-hr {
+/* hr {
   box-sizing: content-box;
   overflow: visible;
   margin-left: 0;
@@ -154,7 +154,7 @@ hr {
   background: hsla(0, 0%, 0%, 0.2);
   border: none;
   height: 1px;
-}
+} */
 button,
 input,
 optgroup,
@@ -346,7 +346,7 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
+  /* margin-left: 1.45rem; */
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
