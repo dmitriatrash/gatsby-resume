@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
@@ -15,11 +15,11 @@ const IndexPage = () => (
     <div className="header">
     <h1 id="#top">Dmitri Atrash</h1>
     <div className="av-container">
-        <img className="avatar" src="https://res.cloudinary.com/dbphvc4co/image/upload/v1615207363/Personal/3D_avatar-use_this_piiyjl.jpg" alt="Dmitri Avatar" />
+        <StaticImage className="avatar" src="https://res.cloudinary.com/dbphvc4co/image/upload/v1615207363/Personal/3D_avatar-use_this_piiyjl.jpg" alt="Dmitri Avatar" />
         <span>Hi! 👋 Nice to meet you. My name is Dmitri, and I am a user experience and interface designer based in Omaha, NE. I am passionate about creating inclusive designs that people fall in love with.</span>
     </div>
     <div className="btn-container">
-      <a href="https://www.dmitriatrash.com" target="_blank" rel="noreferrer"> <button className="btn__solid--green" id="btn-web" style={{marginLeft: 0}}>
+      <a href="https://www.dmitriatrash.com" target="_blank" rel="noreferrer"> <button className="btn__solid--green ml-0" id="btn-web">
           website
         </button></a>
         <a href="https://www.linkedin.com/in/dmitriatrash/" target="_blank" rel="noreferrer">
@@ -35,7 +35,6 @@ const IndexPage = () => (
         call
       </button></a>
     </div>
-
   </div>
   <div className="skills">
     <div className="small-heading-col">
@@ -58,7 +57,6 @@ const IndexPage = () => (
         </p>
         <h4>Metropolitan State University of Denver // 2003-2008</h4>
       </div>
-
     </div>
     <div className="skills-block">
       <div className="small-heading-col">
@@ -98,7 +96,6 @@ const IndexPage = () => (
         <li>Design Thinking</li>
       </ul>
     </div>
-
   </div>
   <div className="jobs">
     <div className="small-heading">

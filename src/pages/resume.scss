@@ -138,7 +138,7 @@ h4{
 }
 
 #btn-top{
-  width: 300px;
+  width: 90%;
 }
 .hr__small--green{
   border: 2px solid #1db954;
@@ -224,4 +224,15 @@ ul{
   .description > li{
     margin: 10px;
   }
+  .skills-block{
+    display: none;
+  }
+  .btn__solid--green, .btn__outline--grey{
+    font-size: 1.5em;
+    width: 250px;
+  }
+}
+
+.ml-0{
+  margin-left: 0;
 }
