@@ -6,11 +6,6 @@ $color-black: #121212;
 $grey-text: #B5B5B5;
 $animate: all 0.2s ease-in-out;
 
-// html {
-//   width: 80%;
-//   margin: 0 auto;
-//   font-size: 16px;
-// }
 
 body {
   background: rgb(118, 118, 118);
@@ -23,10 +18,13 @@ body {
   font-family: proxima-nova, sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6{
+  font-family: proxima-nova, sans-serif;
+}
 
 h1{
   font-size: 3.5em;
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 h2{
   font-size: 2em;
@@ -69,7 +67,7 @@ h4{
 
 .btn__solid--green{
   background: $color-green;
-  color: #ffffff;
+  color: $color-black;
   font-size: 1.2em;
   padding: 10px 30px;
   border: none;
@@ -184,6 +182,10 @@ ul{
   text-align: left;
 }
 
+.edu-container > p{
+  font-size: 1.1em;
+}
+
 .avatar{
   clip-path: circle(50% at 50% 50%);
   min-width: 200px;
@@ -214,6 +216,7 @@ ul{
   }
   .av-container{
     display: block;
+    text-align: center;
   }
   .exp-container{
     width: 100%;
@@ -231,8 +234,19 @@ ul{
     font-size: 1.5em;
     width: 250px;
   }
+  .av-container > span{
+    display: block;
+    text-align: left;
+  }
+}
+
+.degree-title{
+  font-size: 0.9em;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
 }
 
 .ml-0{
   margin-left: 0;
 }
+

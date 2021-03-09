@@ -15,7 +15,10 @@ const IndexPage = () => (
     <div className="header">
     <h1 id="#top">Dmitri Atrash</h1>
     <div className="av-container">
-        <StaticImage className="avatar" src="https://res.cloudinary.com/dbphvc4co/image/upload/v1615207363/Personal/3D_avatar-use_this_piiyjl.jpg" alt="Dmitri Avatar" />
+        <StaticImage
+        width={200} height={200}
+        className="avatar" 
+        src="https://res.cloudinary.com/dbphvc4co/image/upload/v1615207363/Personal/3D_avatar-use_this_piiyjl.jpg" alt="Dmitri Avatar" />
         <span>Hi! 👋 Nice to meet you. My name is Dmitri, and I am a user experience and interface designer based in Omaha, NE. I am passionate about creating inclusive designs that people fall in love with.</span>
     </div>
     <div className="btn-container">
@@ -42,7 +45,7 @@ const IndexPage = () => (
       <hr className="hr__small--green" />
       <div className="edu-container">
         <h3 style={{marginBottom: "0.5em"}}>Master of Science</h3>
-        <h5>Web Design and Development</h5>
+        <h4 className="degree-title">Web Design and Development</h4>
         <p>My main focus of study was on user experience and user interface research, design, and testing. 
         I learned to design, develop, and deploy websites and web-based applications using best practices
          in information architecture, user experience, and user accessibility. 
@@ -50,7 +53,7 @@ const IndexPage = () => (
         <h4>University of Denver // 2017-2019</h4>
         <hr className="hr__large--grey" />
         <h3 style={{marginBottom: "0.5em"}}>Bachelor of Science</h3>
-        <h5>Aviation Technology</h5>
+        <h4 className="degree-title">Aviation Technology</h4>
         <p>I learned to work in demanding, high-pressure aerospace environments while remaining detail 
         oriented and focused on providing a high-level of performance. 
         I also, earned multiple FAA flight and instructor ratings in both single and multi-engine aircraft. 
