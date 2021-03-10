@@ -19,7 +19,7 @@ const IndexPage = () => (
         width={200} height={200}
         className="avatar" 
         src="https://res.cloudinary.com/dbphvc4co/image/upload/v1615207363/Personal/3D_avatar-use_this_piiyjl.jpg" alt="Dmitri Avatar" />
-        <span>Hi! 👋 Nice to meet you. My name is Dmitri, and I am a user experience and interface designer based in Omaha, NE. I am passionate about creating inclusive designs that people fall in love with.</span>
+        <span>Hi! <span role="img" aria-label="hand waving emoji">👋</span> Nice to meet you. My name is Dmitri, and I am a user experience and interface designer based in Omaha, NE. I am passionate about creating inclusive designs that people fall in love with.</span>
     </div>
     <div className="btn-container">
       <a href="https://www.dmitriatrash.com" target="_blank" rel="noreferrer"> <button className="btn__solid--green ml-0" id="btn-web">
