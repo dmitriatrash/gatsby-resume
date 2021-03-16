@@ -250,3 +250,25 @@ ul{
   margin-left: 0;
 }
 
+.btn__back--black{
+  background: $color-black;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  width: 180px;
+  transition: .2s ease-out;
+  cursor: pointer;
+  position: relative;
+  &:focus{  
+    outline: none;
+  }
+  &:hover{
+    border: solid 1px #fff;
+    transition: .2s ease-out;
+    text-decoration: none;
+  }
+}

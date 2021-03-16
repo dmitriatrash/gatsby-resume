@@ -11,7 +11,11 @@ import "./resume.scss"
 const IndexPage = () => (
   <Layout>
     <SEO title="Dmitri's Resume" />
+    {/* <a href="https://www.dmitriatrash.com"> <button className="btn__back--black" id="btn-web">
+          Go Back
+        </button></a> */}
     <div className="parent">
+    
     <div className="header">
     <h1 id="#top">Dmitri Atrash</h1>
     <div className="av-container">
