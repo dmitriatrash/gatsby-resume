@@ -111,7 +111,7 @@ const IndexPage = () => (
     </div>
     <hr className="hr__large--grey" />
     <div className="exp-container">
-      <h3>UX/UI Consultant<span className="italic"> @ Object Partners, Inc.</span></h3>
+      <h3>Senior UX/UI Consultant<span className="italic"> @ Object Partners, Inc.</span></h3>
       <h4>July 2020 - present | Omaha, NE</h4>
       <ul className="description">
         <li>As a UX/UI Consultant, I blend digital design and user research to help clients connect with their users, driving their business forward and accomplishing their goals.</li>
