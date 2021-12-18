@@ -69,7 +69,7 @@ h4{
 }
 
 
-.btn__solid--green{
+.btn__solid{
   background: $color-yellow;
   color: $color-black;
   font-size: 1.2em;
@@ -113,7 +113,7 @@ h4{
   // }
 }
 
-.btn__outline--grey{
+.btn__outline{
   background: transparent;
   color: #ffffff;
   font-size: 1.2em;
@@ -132,6 +132,7 @@ h4{
     background: $color-black;
     transition: .2s ease-out;
     border: 2px solid $color-yellow;
+    color: $color-yellow;
     transform: scale(1.08);
   }
   &:active{
@@ -142,7 +143,7 @@ h4{
 #btn-top{
   width: 90%;
 }
-.hr__small--green{
+.hr__small{
   border: 2px solid $color-pink;
   width: 100px;
 }

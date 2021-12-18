@@ -26,19 +26,19 @@ const IndexPage = () => (
         <span>Hi! <span role="img" aria-label="hand waving emoji">👋</span> Nice to meet you. My name is Dmitri, and I am a user experience and interface designer based in Omaha, NE. I am passionate about creating inclusive designs that people fall in love with.</span>
     </div>
     <div className="btn-container">
-      <a href="https://www.dmitriatrash.com" target="_blank" rel="noreferrer"> <button className="btn__solid--green ml-0" id="btn-web">
+      <a href="https://www.dmitriatrash.com" target="_blank" rel="noreferrer"> <button className="btn__solid ml-0" id="btn-web">
           website
         </button></a>
         <a href="https://www.linkedin.com/in/dmitriatrash/" target="_blank" rel="noreferrer">
-      <button className="btn__solid--green">
+      <button className="btn__solid">
         Linkedin
       </button></a>
       <a href="mailto:contact@dmitriatrash.com" target="_blank" rel="noreferrer">
-      <button className="btn__outline--grey">
+      <button className="btn__outline">
         email
       </button></a>
       <a href="tel:+14027399135‬">
-      <button className="btn__outline--grey">
+      <button className="btn__outline">
         call
       </button></a>
     </div>
@@ -46,7 +46,7 @@ const IndexPage = () => (
   <div className="skills">
     <div className="small-heading-col">
       <h2>Education</h2>
-      <hr className="hr__small--green" />
+      <hr className="hr__small" />
       <div className="edu-container">
         <h3 style={{marginBottom: "0.5em"}}>Master of Science</h3>
         <h4 className="degree-title">Web Design and Development</h4>
@@ -68,7 +68,7 @@ const IndexPage = () => (
     <div className="skills-block">
       <div className="small-heading-col">
         <h2>Skills</h2>
-        <hr className="hr__small--green" />
+        <hr className="hr__small" style={{marginBottom: "1.5em"}}/>
       </div>
       <ul className="skills-list">
         <li>UI/UX Design</li>
@@ -107,7 +107,7 @@ const IndexPage = () => (
   <div className="jobs">
     <div className="small-heading">
       <h2>Experience</h2>
-      <hr className="hr__small--green" />
+      <hr className="hr__small" />
     </div>
     <hr className="hr__large--grey" />
     <div className="exp-container">
@@ -161,7 +161,7 @@ const IndexPage = () => (
   </div>
 </div>
   <a href="#top">
-      <button id="btn-top" className="btn__outline--grey">
+      <button id="btn-top" className="btn__outline">
         Go Back to The Top
       </button></a>
   </Layout>
