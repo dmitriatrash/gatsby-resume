@@ -111,8 +111,18 @@ const IndexPage = () => (
     </div>
     <hr className="hr__large--grey" />
     <div className="exp-container">
+      <h3>Senior UX Engineer<span className="italic"> @ Optum</span></h3>
+      <h4>November 2021 - present | Omaha, NE</h4>
+      <ul className="description">
+        <li>As a Senior User Experience Engineer at Optum, I am responsible for designing user interactions, interfaces, and product features over a large ecosystem of micro products in multi-disciplinary, cross-functional teams.</li>
+        <li>I use full-spectrum user experience design, collaborate with stakeholders and users, and advise on design best practices to produce products that are changing the healthcare industry.</li>
+        <li>Help mentor junior designers and advocate for inclusive, engaging, human-centered user experiences.  </li>
+      </ul>
+    </div>
+    <hr className="hr__large--grey" />
+    <div className="exp-container">
       <h3>Senior UX/UI Consultant<span className="italic"> @ Object Partners, Inc.</span></h3>
-      <h4>July 2020 - present | Omaha, NE</h4>
+      <h4>July 2020 - November 2021 | Omaha, NE</h4>
       <ul className="description">
         <li>As a UX/UI Consultant, I blend digital design and user research to help clients connect with their users, driving their business forward and accomplishing their goals.</li>
         <li>I bridge the divide between stakeholder expectations and user needs to deliver intuitive digital experiences that resonate with people.</li>

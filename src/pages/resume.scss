@@ -2,7 +2,11 @@
 @import url("https://use.typekit.net/atf8fwc.css");
 
 $color-green: #1db954;
+$color-blue: #10bcf9;
+$color-yellow: #FADD3A;
+$color-pink: #FF0DC0;
 $color-black: #121212;
+$color-white: #ffffff;
 $grey-text: #B5B5B5;
 $animate: all 0.2s ease-in-out;
 
@@ -66,7 +70,7 @@ h4{
 
 
 .btn__solid--green{
-  background: $color-green;
+  background: $color-yellow;
   color: $color-black;
   font-size: 1.2em;
   padding: 10px 30px;
@@ -83,7 +87,7 @@ h4{
   }
   &:hover{
     background: $color-black;
-    color: $color-green;
+    color: $color-yellow;
     transition: .2s ease-out;
     text-decoration: none;
     transform: scale(1.08);
@@ -127,7 +131,7 @@ h4{
   &:hover{
     background: $color-black;
     transition: .2s ease-out;
-    border: 2px solid $color-green;
+    border: 2px solid $color-yellow;
     transform: scale(1.08);
   }
   &:active{
@@ -139,7 +143,7 @@ h4{
   width: 90%;
 }
 .hr__small--green{
-  border: 2px solid #1db954;
+  border: 2px solid $color-pink;
   width: 100px;
 }
 .hr__large--grey{
