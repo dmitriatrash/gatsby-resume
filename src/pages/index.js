@@ -37,7 +37,7 @@ const IndexPage = () => (
       <button className="btn__outline">
         email
       </button></a>
-      <a href="tel:+14027399135‬">
+      <a href="tel:+19702907800‬">
       <button className="btn__outline">
         call
       </button></a>
