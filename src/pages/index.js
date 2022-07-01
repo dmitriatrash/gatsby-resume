@@ -111,8 +111,19 @@ const IndexPage = () => (
     </div>
     <hr className="hr__large--grey" />
     <div className="exp-container">
+      <h3>Digital Business Engineer<span className="italic"> @ Allstate</span></h3>
+      <h4>March 2022 - present | Remote</h4>
+      <ul className="description">
+        <li>As a Digital Business Engineer and part of the Digital Innovations Team at Allstate, I partner with engineering, UX, and line of business experts to mature agile execution practices to deliver on intended outcomes.</li>
+        <li>I leverage outcome-focused metrics to design and roadmap prioritization and product and platform strategy to create products that bridge business requirements and user needs. </li>
+        <li>Working with product teams and stakeholders, I work to define and catalog digital blueprints, roadmaps for execution, success criteria, and clear outcomes.</li>
+        <li>I support the development of the digital strategy by considering multiple sources of input (e.g., research, test and learn, MVP results, partnerships, etc.)—effectively communicate key findings, messages, and recommendations regarding strategy to all stakeholders.</li>
+      </ul>
+    </div>
+    <hr className="hr__large--grey" />
+    <div className="exp-container">
       <h3>Senior UX Engineer<span className="italic"> @ Optum</span></h3>
-      <h4>November 2021 - present | Omaha, NE</h4>
+      <h4>November 2021 - March 2022 | Remote</h4>
       <ul className="description">
         <li>As a Senior User Experience Engineer at Optum, I am responsible for designing user interactions, interfaces, and product features over a large ecosystem of micro products in multi-disciplinary, cross-functional teams.</li>
         <li>I use full-spectrum user experience design, collaborate with stakeholders and users, and advise on design best practices to produce products that are changing the healthcare industry.</li>
@@ -142,7 +153,7 @@ const IndexPage = () => (
     <hr className="hr__large--grey" />
     <div className="exp-container">
       <h3>Founder, Freelance Designer and Developer<span className="italic"> @ Original Zen</span></h3>
-      <h4>March 2016 - present | Omaha, NE</h4>
+      <h4>March 2016 - present | Loveland, CO</h4>
       <ul className="description">
         <li>I work with a diverse range of clients to produce digital and print projects that improve their business. I create websites and digital experiences built on the latest web technologies, including React, Vue, and WordPress.</li>
         <li>I help clients craft and develop their brand, refine, and deliver their message in a way that engages and excites their customers.</li>
