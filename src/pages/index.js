@@ -37,7 +37,7 @@ const IndexPage = () => (
       <button className="btn__outline">
         email
       </button></a>
-      <a href="tel:+19702907800‬">
+      <a href="tel:+19702907800">
       <button className="btn__outline">
         call
       </button></a>
@@ -109,10 +109,20 @@ const IndexPage = () => (
       <h2>Experience</h2>
       <hr className="hr__small" />
     </div>
+    <div className="exp-container">
+      <h3>User Experience + Product Designer<span className="italic"> Freelance Designer</span></h3>
+      <h4>March 2016 - present | Loveland, CO</h4>
+      <ul className="description">
+        <li>Design and deliver modern designs and web-based products for clients that help their businesses thrive and connect with their customers.</li>
+        <li>Develop websites and platform native digital experiences that are built on various, modern front-end frameworks and content management systems. (CMS), including: React,WordPress, and Shopify.</li>
+        <li>Consult and advocate for great UX design, user inclusivity, and web accessibility in a wide variety of business verticals—advising teams on design operations and best practices in Agile processes.</li>
+        <li>Create, implement, and maintain design systems and libraries–helping product teams create consistent and versatile patterns to implement in their digital products.</li>
+      </ul>
+    </div>
     <hr className="hr__large--grey" />
     <div className="exp-container">
       <h3>Digital Business Engineer<span className="italic"> @ Allstate</span></h3>
-      <h4>March 2022 - present | Remote</h4>
+      <h4>March 2022 - August 2022 | Remote</h4>
       <ul className="description">
         <li>As a Digital Business Engineer and part of the Digital Innovations Team at Allstate, I partner with engineering, UX, and line of business experts to mature agile execution practices to deliver on intended outcomes.</li>
         <li>I leverage outcome-focused metrics to design and roadmap prioritization and product and platform strategy to create products that bridge business requirements and user needs. </li>
@@ -150,15 +160,7 @@ const IndexPage = () => (
         <li>I coordinated with the rest of the Tigerpaw team to turn visions into reality, creating amazing designs, and breathing life into them using the latest Front-End web technologies.</li>
       </ul>
     </div>
-    <hr className="hr__large--grey" />
-    <div className="exp-container">
-      <h3>Founder, Freelance Designer and Developer<span className="italic"> @ Original Zen</span></h3>
-      <h4>March 2016 - present | Loveland, CO</h4>
-      <ul className="description">
-        <li>I work with a diverse range of clients to produce digital and print projects that improve their business. I create websites and digital experiences built on the latest web technologies, including React, Vue, and WordPress.</li>
-        <li>I help clients craft and develop their brand, refine, and deliver their message in a way that engages and excites their customers.</li>
-      </ul>
-    </div>
+    
     <hr className="hr__large--grey" />
     <div className="exp-container">
       <h3>Naval Aviator <span className="italic"> @ U.S. Navy</span></h3>
