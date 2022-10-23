@@ -111,7 +111,7 @@ const IndexPage = () => (
     </div>
     <div className="exp-container">
       <h3>User Experience + Product Designer<span className="italic"> Freelance Designer</span></h3>
-      <h4>March 2016 - present | Loveland, CO</h4>
+      <h4>March 2015 - present | Loveland, CO</h4>
       <ul className="description">
         <li>Design and deliver modern designs and web-based products for clients that help their businesses thrive and connect with their customers.</li>
         <li>Develop websites and platform native digital experiences that are built on various, modern front-end frameworks and content management systems. (CMS), including: React,WordPress, and Shopify.</li>
